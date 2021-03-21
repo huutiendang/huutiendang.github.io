@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the  Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Tien's Homepage</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="files/tien.JPG" type="image/icon type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="files/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="files/font.css" rel='stylesheet' type='text/css'>
+</head>
+
+<style>
+
+:root {
+    --primary-color: #1B6FC2;
+    --secondary-color: #536390;
+    --font-color: #23476A;
+    --bg-color: #FEFDF9;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #66CCCC;
+    --secondary-color: #818cab;
+    --font-color: #CCCCCC;
+    --bg-color: #2C2C2C;
+    --heading-color: #818cab;
+}
+
+hr {
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: .5px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+a:hover {
+    color: var(--primary-color);
+}
+
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+
+  em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+
+
+.theme-switch {
+  display: inline-block;
+  top: 7px;
+  height: 27px;
+  right: 70px;
+  position: absolute;
+  width: 32px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #b3b3b3;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #FEFDF9;
+  top: 0;
+  content: "";
+  height: 15px;
+  left: 0px;
+  position: absolute;
+  transition: .4s;
+  width: 15px;
+}
+
+input:checked + .slider {
+  background-color: #66CCCC;
+}
+
+input:checked + .slider:before {
+  transform: translateX(17px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+</style>
+
+<body>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+    <ul class="nav navbar-nav">
+              <li><a href="https://huutiendang.github.io/">Tien's Homepage</a></li>
+    </ul>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+    </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Entries Column -->
+            <div class="col-md-3" >
+                <!-- Contact Info on the Sidebar and image -->
+                <div style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;"><b>Tien Dang</b></div><br>
+                <img class="img-responsive" src="files/tien.JPG" height="400" width="400" alt=""><br>
+                <p>Undergraduate student<br>
+                Vietnam National University, School of Engineering and Technology<br></p>
+                <p><b>Email:</b> 17021059[at]vnu.edu.vn<br>
+                <dd><a href="https://huutiendang.github.io/files/TienCV.pdf" target="_blank">Curriculum Vitae (usually outdated)</a></dd>
+                <dd><a href="https://github.com/huutiendang" target="_blank">GitHub</a></dd>
+                <dd><a href="https://twitter.com/HuuTienDang" target="_blank">Twitter</a></dd>
+                <dd><a href="https://www.linkedin.com/in/tien-dang-97485117a/" target="_blank">Linkedin</a></dd>
+                </p>
+            
+
+            </div>
+
+            <!-- main info -->
+         <div class="col-md-8" >
+      <div style="margin-top:5vh; text-align:justify;">
+
+      <div  style="text-align:left;">
+      <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
+          <b>Short bio.</b>
+          <p>Hi! I am currently a senior in computer science at Vietnam National University. I am grateful to be advised by Professor <a href="https://scholar.google.com/citations?user=9HELB78AAAAJ&hl=en" target="_blank">Xuan-Hieu Phan</a>. Topics interested widely includes Statistical Machine Learning and Natural Language Processing.</p>
+            <p>In my spare time I enjoy writing, watching and discussing films. I am also an amateur guitarist and violinist.</p>
+          
+      <hr>
+
+      <div  style="margin-top:3vh; text-align:left;">
+      <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><b>Experiences.</b></div><br>
+       <ul>
+           <li><i>Speech and Language Processing Department, Vingroup Big Data Institute - NLP Research Engineer (Jan, 2021 - present).</i></li>
+           <li><i>Institute of Mathematics, Vietnam Academy of Science and Technology, Hanoi - Research Intern (Jun, 2020 - Nov, 2020).</i></li>
+           <li><i>Data Science and Knowledge Technology Laboratory - Research Intern (Jan, 2019 - present).</i></li>
+           
+       </ul>
+      </div>
+
+       <hr>
+
+      <div  style="margin-top:3vh; text-align:left;">
+      <div align="justify", style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><b>Blog writings and Reading seminar.</b></div><br>
+        <ul>
+            
+        <li><a href="https://huutiendang.github.io/files/Text2SQL.pdf" target="_blank">Natural Language-to-SQL Semantic Parsing Task.</a></>    
+        <li><a href="https://huutiendang.github.io/files/LanguageModels.pdf" target="_blank">Mô hình ngôn ngữ thống kê - Statistical Language Models.</a></>
+        <li><a href="https://huutiendang.github.io/files/SIR.pdf" target="_blank">Một số mô hình lan truyền dịch bệnh - Compartmental models in epidemiology.</a></li>
+        <li><a href="https://huutiendang.github.io/files/HMMs_MEMMs.pdf" target="_blank">Probabilistic Model for Sequence Tagging Problems.</a></> 
+        
+          </ul>   
+            
+      </div>
+
+
+      
+        
+          
+          
+          
+      <hr>
+
+      <div  style="margin-top:3vh; text-align:left;">
+      <div align="justify", style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><b>Workshops.</b></div><br>
+        <ul>
+            <li>
+        <i>"An Agent-based Framework toward building epidemic disease simulation based on SIR model"</i>. In: Workshop for talent student at Institute of Mathematics,Vietnam Academy of Science and Technology, September 2020. <br> <u><a href="https://huutiendang.github.io/files/Epidemic_sim.pdf" target="_blank">[Paper]</a> <a href="https://huutiendang.github.io/files/presentation.pdf" target="_blank">[Slides]</a> <a href="https://github.com/huutiendang/EpidemicSim" target="_blank">[Code]</a></u><br>
+            </li>        
+          </ul>   
+            
+      </div>
+
+
+      <hr>
+
+ <!-- Other people may like it too! -->
+     <div>
+    <p style="font-size:0.8em; float:right; color:#b5bec9;"> Thanks to <u> <a style="color:#b5bec9" target="_blank" href="https://mavroud.is/">Vasilios Mavroudis</a></u> for the <u><a style="color:#b5bec9" target="_blank" href="https://github.com/mavroudisv/plain-academic">template</a></u>!</p>
+    </div>
+    <!-- /.container -->
+
+
+<script>
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light'); //add this
+    }
+}
+
+
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+
+</script>
+
+
+</body>
+
+</html>
